@@ -10,7 +10,27 @@
 }
 h4{
   font-size: 20px;
+
 }
+
+#brijo{
+  width: 15%;
+  border-radius: 90%;
+}
+/* body{
+ color: #20784D; */
+
+#mbog{
+  border-radius: 100%;
+  width: 15%;
+}
+.main{
+  display: flex;
+  gap: 20%;
+}
+.rev{
+  display: flex;
+  gap: 8%;}
 .feature-row{
   width:80%;
   margin: auto;
