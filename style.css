@@ -16,7 +16,8 @@ ul{
   display: flex;
   gap: 180px;
   color:  #20784D;
-  font-size: x-large;
+  font-size: 16px;
+  background-color:#20784D;
 } 
 
 .welcome{
@@ -26,8 +27,8 @@ ul{
 
 }
 .logos{
-  width: 15%;
-  height: 40px;
+  width: 8%;
+  height: 5%;
 }
 
 
@@ -75,16 +76,19 @@ h4{
 
 }
 
+/* reviews */
+
 #brijo{
   width: 15%;
   border-radius: 90%;
 }
-/* body{
- color: #20784D; */
+
+
 
 #mbog{
   border-radius: 100%;
   width: 15%;
+  margin-left: 5%;
 }
 .main{
   display: flex;
@@ -92,7 +96,11 @@ h4{
 }
 .rev{
   display: flex;
-  gap: 8%;}
+  gap: 8%;
+  margin-left:5% ;
+}
+
+  /* feature */
 .feature-row{
   width:80%;
   margin: auto;
@@ -170,7 +178,6 @@ font-size: 20px;
   padding: 6px;
   box-sizing: border-box;
   position: absolute;
-  bottom:-55%;
   background: rgb(27,27,27,.5);
   color: #fff;
 
@@ -186,6 +193,16 @@ font-size: 20px;
   outline: none;
   border: none;
   color: #fff;
+  
+}
+.common-btn1{
+  height: 10vh;
+  width: 20vw;
+  background: #20784D;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-top: 15%;
   
 }
 @media only screen and (max-width: 768px) {
@@ -275,14 +292,7 @@ font-size: 20px;
 .about{
   background-color:white;
 }
-.veges{
-  width: 130%;
-  height: 400px;
-  border: none;
-box-shadow: 20px 30px 40px;
-border-radius: 70px 10px;
- 
-}
+
 .ourmission{
   display: flex;
 
@@ -293,22 +303,20 @@ border-radius: 70px 10px;
 
 }
 .our{
-  color:#4cc7a4;
+  color:#20784D;
 font-family: 'Quicksand', sans-serif;
-font-weight: bolder;
+
 }
 .missionp{
 color:#021b14;
 font-family: 'Quicksand', sans-serif;
-font-weight: bolder;
 font-size:medium;
 
 }
 .fresh{
-  color:#4cc7a4;
+  color:#20784D;
   font-family: 'Quicksand', sans-serif;
-font-weight: bolder;
-font-size: x-large;
+
 
 }
 
@@ -317,13 +325,12 @@ display: flex;
 margin-top: 10%;
 }
 .missionv{
-  color:#4cc7a4;
+  color:#20784D;
   font-family: 'Quicksand', sans-serif;
-  font-weight: bolder;
-  font-size:x-large;  
+  
 }
 .ourv{
-  color:#4cc7a4;
+  color:#20784D;
   font-family: 'Quicksand', sans-serif;
   font-weight: bolder; 
 }
@@ -414,4 +421,5 @@ ul li{
 .trues{
     color: aqua;
 }
+
  
