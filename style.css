@@ -3,6 +3,68 @@
   margin: 0;
   padding: 0;
 }
+/* home */
+.homepage{
+  background-image: url(/images/grocegroce.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y:hidden ;
+  height: 96vh;
+   }
+ul{
+  list-style: none;
+  display: flex;
+  gap: 180px;
+  color:  #20784D;
+  font-size: x-large;
+} 
+
+.welcome{
+ text-align: center;
+ font-size: x-large;
+
+
+}
+.logos{
+  width: 15%;
+  height: 40px;
+}
+
+
+   @media all and (min-width:200px) and (max-width: 1000px) {
+      ul{
+          gap: 40px;
+      } 
+      
+      .welcome{
+         font-size: large;
+      }
+      body{
+          width: 100%;
+           }
+        ul{
+
+
+  }
+}
+@media all and (min-width:200px) and (max-width: 600px) {
+  ul{
+      gap: 10px;
+  } 
+  
+  .welcome{
+     font-size: medium;
+  }
+  body{
+      width: 100%;
+       }
+    ul{
+
+
+}
+
+}
+
 /*---features---*/
 #features{
   padding-top:50px ;
@@ -168,7 +230,7 @@ font-size: 20px;
 
     }
     
-=
+
 
   /* contact */
 
@@ -352,4 +414,4 @@ ul li{
 .trues{
     color: aqua;
 }
- main
+ 
