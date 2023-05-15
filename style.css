@@ -151,6 +151,25 @@ font-size: 20px;
   }
   }
 
+
+@media screen and (max-width: 800px) {
+        .footer{
+            max-height:600px;
+            width: 95%;
+        }
+            .footer{
+                flex-direction: column;   
+    
+            }
+            .logo{
+                width: 20%;
+                height: 70px;
+            }
+
+    }
+    
+=
+
   /* contact */
 
   .contact-row{
@@ -303,3 +322,34 @@ text-align: center;
   }
 
 }
+
+footer.html
+  .footer{
+    padding:10px;
+    background-color:hsl(151, 58%, 30%);
+    color:#ffffff;
+    max-height:150px;
+}
+.row{
+    display: flex;
+}
+.footer{
+    display:flex;
+    gap: 5%;
+    height: 100vh;
+
+}
+ul li{
+    list-style: none;
+    color:hwb(0 100% 0%);
+    
+}
+.logo{
+    width: 60%;
+    height: 50px;
+
+}
+.trues{
+    color: aqua;
+}
+ main
